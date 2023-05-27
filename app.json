@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "pomodoro",
+    "name": "Pomodoro",
     "slug": "pomodoro",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -15,16 +15,25 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.btree.pomodoro",
+      "buildNumber": "1.0.0"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.btree.pomodoro",
+      "versionCode": 1
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "d85b6fa6-e7ad-4c5a-957e-51468fea6034"
+      }
     }
   }
 }
